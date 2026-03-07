@@ -971,6 +971,16 @@ class GamepadEditor extends EventTarget {
     };
   }
 
+  createExtraOptions() { // Nom-Note: I dont know how to do this, so learn how / where to call this.
+    // Nom-Note: add input(s) here
+    // if (axisMapping === "cursor") {
+      // const showCursorOption = document.createElement("input")
+      // setup
+      // const centerCursorOption = document.createElement("input")
+      // setup
+      // }
+  }
+
   hasControllerSelected() {
     return !!this.selector.value;
   }
