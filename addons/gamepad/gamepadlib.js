@@ -974,10 +974,19 @@ class GamepadEditor extends EventTarget {
   createExtraOptions() { // Nom-Note: I dont know how to do this, so learn how / where to call this.
     // Nom-Note: add input(s) here
     // if (axisMapping === "cursor") {
-      // const showCursorOption = document.createElement("input")
+      // const divCon = document.createElement("div")
+      // const label1 = document.createElement("label")
+      // const hideCursorOption = document.createElement("input")
       // setup
+
+      // const label2 = document.createElement("label")
       // const centerCursorOption = document.createElement("input")
       // setup
+
+      // this.lable1.appendChild(hideCursorOption)
+      // this.lable2.appendChild(centerCursorOption)
+      // this.divCon.appendChild(lable1)
+      // this.divCon.appendChild(lable2)
       // }
   }
 
